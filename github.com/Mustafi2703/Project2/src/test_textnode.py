@@ -11,6 +11,7 @@ from textnode import (
 )
 
 
+
 class TestTextNode(unittest.TestCase):
     def test_eq(self):
         node = TextNode("This is a text node", text_type_text)
@@ -39,6 +40,9 @@ class TestTextNode(unittest.TestCase):
         self.assertEqual(
             "TextNode(This is a text node, text, https://www.boot.dev)", repr(node)
         )
+
+
+
 
 
 if __name__ == "__main__":
